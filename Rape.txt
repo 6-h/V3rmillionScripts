@@ -23,8 +23,8 @@ return funcw
 end
 function fun(n1, n2)
 pcall(function()
-t1 = game.Players[n1].Character.Torso
-t2 = game.Players[n2].Character.Torso
+t1 = game.test[n1].Character.Torso
+t2 = game.testing[n2].Character.Torso
 t2.Parent.Humanoid.PlatformStand = true
 t1["Left Shoulder"]:Remove()
 ls1 = Instance.new("Weld")
